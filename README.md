@@ -22,19 +22,21 @@ pip install pytest requests
 
 🗂 Estructura
 .
-├── data.py               # Headers y cuerpos de requests
-├── configuration.py      # URLs y endpoints
-├── sender_stand_request.py # Cliente HTTP
-├── tests/
-│   └── test_kits.py      # Casos de prueba
+├── data.py # Headers y cuerpos de requests
+├── configuration.py # URLs y endpoints
+├── sender_stand_request.py # Cliente HTTP para crear user y kit
+├── create_kit_name_kit_test.py # Archivo de pruebas (9 casos)
 └── README.md
+
 ▶ Ejecución
 bash
 # Ejecutar todas las pruebas:
-pytest tests/ -v
+pytest create_kit_name_kit_test.py -v
 
 # Ejecutar prueba específica:
-pytest tests/test_kits.py::test_special_chars -v
+# Ejemplo Prueba 1: Nombre con 1 carácter
+pytest create_kit_name_kit_test.py::test_1_create_kit_name_1_letter -v
+
 🧪 Casos Cubiertos
 Caso	Descripción	                Status Esperado
 1	Nombre con 1 carácter   	        201
