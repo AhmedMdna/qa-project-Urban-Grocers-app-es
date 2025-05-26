@@ -42,9 +42,9 @@ Caso	Descripción	                Status Esperado
 1	Nombre con 1 carácter   	        201
 2	Nombre con 511 caracteres   	        201
 3	Nombre vacío ("")                       400
-4   Nombre con 512 caracteres	                400
+4       Nombre con 512 caracteres	        400
 5	Caracteres especiales (Ej: №%@)	        201
-6   Nombre con espacios                         201
-7   Nombre con números                          201
-8	Campo name ausente	                400
-9   Parametro de tipo diferente                 400
+6       Nombre con espacios                     201
+7       Nombre con números                      201
+8	Campo `name` ausente	                400
+9       Parametro de tipo diferente             400
