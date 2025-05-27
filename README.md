@@ -22,7 +22,7 @@ pip install pytest requests
 
 🗂 Estructura
 .
-├── data.py # Headers y cuerpos de requests
+├── data.py # Headers y cuerpos de requests, datos de pruebas
 ├── configuration.py # URLs y endpoints
 ├── sender_stand_request.py # Cliente HTTP para crear user y kit
 ├── create_kit_name_kit_test.py # Archivo de pruebas (9 casos)
