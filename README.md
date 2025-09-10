@@ -7,7 +7,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Pytest](https://img.shields.io/badge/Pytest-Testing%20Framework-green)](https://docs.pytest.org/)
 
--Automatización de pruebas para la API, con enfoque en el campo `name` en la solicitud de creación de un kit de productos.
+-Automatización de pruebas para la API de Urban Grocers, con enfoque en el campo `name` en la solicitud de creación de un kit de productos.
 
 ## 📋 Requisitos
 - Python 3.8+
