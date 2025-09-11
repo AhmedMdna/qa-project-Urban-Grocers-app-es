@@ -9,6 +9,15 @@
 
 -Automatización de pruebas para la API de Urban Grocers, con enfoque en el campo `name` en la solicitud de creación de un kit de productos.
 
+Este repositorio contiene el proyecto de pruebas de calidad (QA) automtaizadas para la aplicación "Urban Grocers", un software diseñado con fines educativos para ingenieros QA. El objetivo principal fue desarrollar y ejecutar pruebas para asegurar la funcionalidad y estabilidad de la API de la aplicación.
+
+## 🚀 Demostración de las pruebas:
+
+Aquí puedes ver la ejecución de las pruebas automatizadas en pycharm, mostrando sus características principales y la experiencia de usuario.
+
+[![Demostración de la Aplicación Urban Grocers](https://img.youtube.com/vi/3ukOJfKJjcg/0.jpg)](https://www.youtube.com/watch?v=3ukOJfKJjcg)
+
+
 ## 📋 Requisitos
 - Python 3.8+
 - Dependencias: `pytest`, `requests`
